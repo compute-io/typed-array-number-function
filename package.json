@@ -43,7 +43,6 @@
   "dependencies": {
     "compute-array-constructors": "^1.0.0",
     "validate.io-array": "^1.0.6",
-    "validate.io-array-like": "^1.0.1",
     "validate.io-boolean-primitive": "^1.0.0",
     "validate.io-function": "^1.0.2",
     "validate.io-number-primitive": "^1.0.0",
