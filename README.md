@@ -23,7 +23,7 @@ var arrayfun = require( 'compute-typed-array-number-function' );
 <a name="arrayfun"></a>
 #### arrayfun( fcn, ...value[, options] )
 
-Applies a `function` to each [`typed array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) element. `value` arguments may be either [`typed array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) or `number` primitives.
+Applies a `function` to each [`typed array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) element. `value` arguments may be either [`typed arrays`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) or `number` primitives.
 
 ``` javascript
 var arr = new Int8Array( [1,2,3,4,5] );
@@ -72,7 +72,7 @@ arrayfun( add, out, arr, 5, {
 ===
 ### Factory
 
-The main exported `function` does __not__ make any assumptions regarding the number of input [`typed arrays`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) or `numbers`. To create a reusable [`typed array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) function where arguments `types` are known, a factory method is provided.
+The main exported `function` does __not__ make any assumptions regarding the number of input [`typed arrays`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) or `numbers`. To create a reusable [`typed array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) function where argument `types` are known, a factory method is provided.
 
 
 <a name=\
