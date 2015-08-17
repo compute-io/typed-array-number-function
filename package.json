@@ -1,0 +1,63 @@
+{
+  "name": "compute-typed-array-number-function",
+  "version": "0.0.0",
+  "description": "Applies a function to each typed array element by broadcasting numeric arguments.",
+  "author": {
+    "name": "Athan Reines",
+    "email": "kgryte@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Athan Reines",
+      "email": "kgryte@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/coverage -- -R spec",
+    "codecov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/codecov/coverage --report lcovonly -- -R spec && cat ./reports/codecov/coverage/lcov.info | codecov && rm -rf ./reports/codecov"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/compute-io/typed-array-number-function.git"
+  },
+  "keywords": [
+    "compute.io",
+    "compute",
+    "computation",
+    "utility",
+    "util",
+    "typed-array",
+    "typed",
+    "array",
+    "number",
+    "numeric",
+    "element-wise",
+    "apply",
+    "function"
+  ],
+  "bugs": {
+    "url": "https://github.com/compute-io/typed-array-number-function/issues"
+  },
+  "dependencies": {
+    "compute-array-constructors": "^1.0.0",
+    "validate.io-array": "^1.0.6",
+    "validate.io-array-like": "^1.0.1",
+    "validate.io-boolean-primitive": "^1.0.0",
+    "validate.io-function": "^1.0.2",
+    "validate.io-number-primitive": "^1.0.0",
+    "validate.io-object": "^1.0.4",
+    "validate.io-string-primitive": "^1.0.0",
+    "validate.io-typed-array-like": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.x.x",
+    "codecov.io": "^0.1.5",
+    "istanbul": "^0.3.0",
+    "jshint": "2.x.x",
+    "jshint-stylish": "2.x.x",
+    "mocha": "2.x.x"
+  },
+  "license": "MIT"
+}
