@@ -2,7 +2,7 @@ Typed-Array-Number Function
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Applies a function to each [typed array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) element.
+> Applies a function to each [typed array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) element while broadcasting numeric arguments.
 
 
 ## Installation
@@ -23,7 +23,7 @@ var arrayfun = require( 'compute-typed-array-number-function' );
 <a name="arrayfun"></a>
 #### arrayfun( fcn, ...value[, options] )
 
-Applies a `function` to each [`typed array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) element. `value` arguments may be either [`typed arrays`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) or `number` primitives.
+Applies a `function` to each [`typed array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) element while broadcasting `numeric` arguments. `value` arguments may be either [`typed arrays`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) or `number` primitives.
 
 ``` javascript
 var arr = new Int8Array( [1,2,3,4,5] );
